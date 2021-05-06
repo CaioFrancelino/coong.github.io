@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 14px 'OpenSans', sans-serif;
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+.sobre {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.sobre section {
+    width: 100%;
+    padding: 78px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre h1 {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Open-Sans', sans-serif;
+    color: rgb(97, 97, 97);
+}
+
+.sobre p {
+    line-height: 20px;
+    color: rgb(46, 46, 46);
+    -webkit-font-smoothing: antialiased;
+}
+
+.buttonclass {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonsobre {
+    width: 20%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background: #538dd1;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 16px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: background 0.7s;
+}
+
+.buttonsobre:hover {
+    background: #2d6cb4;
+}
+ .buttonsobre a {
+     text-decoration: none;
+     color: #fafafa;
+ }

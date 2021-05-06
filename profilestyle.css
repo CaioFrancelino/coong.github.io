@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+@import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+.profile-container {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+    font: 400 14px 'OpenSans', sans-serif;
+}
+
+.profile-container header {
+    display: flex;
+    align-items: center;
+}
+
+.profile-container header span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 24px;
+}
+
+.profile-container header img {
+    height: 70px;
+}
+
+.profile-container header a {
+    width: 140px;
+    margin-left: auto;
+    margin-top: 0;
+    text-decoration: none;
+    color: #262626;
+}
+
+.profile-container header button {
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    border: 3px solid #fafafa;
+    background: #262626;
+    margin-left: 16px;
+    transition: background 0.2s;
+}
+
+.profile-container header button:hover {
+   background: #ef3a4c; 
+}
+
+.fa-sign-out-alt {
+    color: #fafafa;
+}
+
+.fa-trash-alt {
+    color: #262626;
+}
+
+.profile-container h1 {
+    margin-top: 80px;
+    margin-bottom: 24px;
+    font-family: "Druk Wide Bold";
+
+}
+
+.profile-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+    list-style: none;
+}
+
+.profile-container ul li {
+    background: #fcfcfc;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 5px 5px 8px rgba(34, 34, 34, 0.2);
+}
+
+.profile-container ul li button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 24px;
+    top: 24px;
+    border: 0;
+    transition: opacity 0.2s;
+    background: #fafafa;
+}
+
+.profile-container ul li button:hover {
+    opacity: 0.8;
+}
+
+.profile-container ul li strong {
+    display: block;
+    margin-bottom: 16px;
+    color: #41414d;
+}
+
+.profile-container ul li p + strong {
+    margin-top: 32px;
+}
+
+.profile-container ul li p {
+    color: #737380;
+    line-height: 21px;
+    font-size: 16px;
+}

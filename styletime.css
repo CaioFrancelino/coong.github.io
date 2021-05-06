@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+@import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 14px 'Druk Wide Bold', sans-serif;
+}
+
+#container {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container h1 {
+    padding-top: 4%;
+    margin-bottom: 1%;
+}
+
+.fotos {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.fotos img {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+p *{
+    text-decoration: none;
+    color: #262626;
+}
+
+.historia {
+    background: #fafafa;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 28px 28px 40px rgba(0, 0, 0, 0.1);
+
+}
+
+.historia h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.historia p {
+    font: 700 14px 'OpenSans', sans-serif;
+    text-align: center;
+    line-height: 25px;
+    color: #262626;
+    max-width: auto;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#logohist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100px;
+    margin-bottom: 40px;
+}
+
+#backbutton {
+    width: 20%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background: #538dd1;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 16px;
+    text-decoration: none;
+    font: 700 14px 'OpenSans', sans-serif;
+    font-size: 12px;
+    line-height: 60px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+    transition: background 0.7s;
+}
+
+#backbutton:hover {
+    background: #2d6cb4;
+}
+ #backbutton a {
+     text-decoration: none;
+     color: #fafafa;
+ }
